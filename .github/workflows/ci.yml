@@ -12,3 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: echo "Engineering CI active"
+
+  policy-compliance:
+    uses: operon-systems/governance-policies/.github/workflows/policy-compliance.yml@main
